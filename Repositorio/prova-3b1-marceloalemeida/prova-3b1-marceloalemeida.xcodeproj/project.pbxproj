@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC561D1226CA81560019E985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC561D1126CA81560019E985 /* AppDelegate.swift */; };
+		DC561D1426CA81560019E985 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC561D1326CA81560019E985 /* SceneDelegate.swift */; };
+		DC561D1626CA81560019E985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC561D1526CA81560019E985 /* ViewController.swift */; };
+		DC561D1926CA81560019E985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC561D1726CA81560019E985 /* Main.storyboard */; };
+		DC561D1B26CA81580019E985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC561D1A26CA81580019E985 /* Assets.xcassets */; };
+		DC561D1E26CA81580019E985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC561D1C26CA81580019E985 /* LaunchScreen.storyboard */; };
+		DC561D2926CA81580019E985 /* prova_3b1_marceloalemeidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC561D2826CA81580019E985 /* prova_3b1_marceloalemeidaTests.swift */; };
+		DC561D3426CA81580019E985 /* prova_3b1_marceloalemeidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC561D3326CA81580019E985 /* prova_3b1_marceloalemeidaUITests.swift */; };
+		DC561D4526CA916C0019E985 /* entryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC561D4426CA916C0019E985 /* entryViewController.swift */; };
+		DC561D4A26CA91AC0019E985 /* taskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC561D4926CA91AC0019E985 /* taskViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC561D2526CA81580019E985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC561D0626CA81560019E985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC561D0D26CA81560019E985;
+			remoteInfo = "prova-3b1-marceloalemeida";
+		};
+		DC561D3026CA81580019E985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC561D0626CA81560019E985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC561D0D26CA81560019E985;
+			remoteInfo = "prova-3b1-marceloalemeida";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC561D0E26CA81560019E985 /* prova-3b1-marceloalemeida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prova-3b1-marceloalemeida.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC561D1126CA81560019E985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC561D1326CA81560019E985 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC561D1526CA81560019E985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC561D1826CA81560019E985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC561D1A26CA81580019E985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC561D1D26CA81580019E985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC561D1F26CA81580019E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC561D2426CA81580019E985 /* prova-3b1-marceloalemeidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prova-3b1-marceloalemeidaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC561D2826CA81580019E985 /* prova_3b1_marceloalemeidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prova_3b1_marceloalemeidaTests.swift; sourceTree = "<group>"; };
+		DC561D2A26CA81580019E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC561D2F26CA81580019E985 /* prova-3b1-marceloalemeidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prova-3b1-marceloalemeidaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC561D3326CA81580019E985 /* prova_3b1_marceloalemeidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prova_3b1_marceloalemeidaUITests.swift; sourceTree = "<group>"; };
+		DC561D3526CA81580019E985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC561D4426CA916C0019E985 /* entryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entryViewController.swift; sourceTree = "<group>"; };
+		DC561D4926CA91AC0019E985 /* taskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC561D0B26CA81560019E985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC561D2126CA81580019E985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC561D2C26CA81580019E985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC561D0526CA81560019E985 = {
+			isa = PBXGroup;
+			children = (
+				DC561D1026CA81560019E985 /* prova-3b1-marceloalemeida */,
+				DC561D2726CA81580019E985 /* prova-3b1-marceloalemeidaTests */,
+				DC561D3226CA81580019E985 /* prova-3b1-marceloalemeidaUITests */,
+				DC561D0F26CA81560019E985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC561D0F26CA81560019E985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC561D0E26CA81560019E985 /* prova-3b1-marceloalemeida.app */,
+				DC561D2426CA81580019E985 /* prova-3b1-marceloalemeidaTests.xctest */,
+				DC561D2F26CA81580019E985 /* prova-3b1-marceloalemeidaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC561D1026CA81560019E985 /* prova-3b1-marceloalemeida */ = {
+			isa = PBXGroup;
+			children = (
+				DC561D1126CA81560019E985 /* AppDelegate.swift */,
+				DC561D1326CA81560019E985 /* SceneDelegate.swift */,
+				DC561D1526CA81560019E985 /* ViewController.swift */,
+				DC561D1726CA81560019E985 /* Main.storyboard */,
+				DC561D1A26CA81580019E985 /* Assets.xcassets */,
+				DC561D1C26CA81580019E985 /* LaunchScreen.storyboard */,
+				DC561D1F26CA81580019E985 /* Info.plist */,
+				DC561D4426CA916C0019E985 /* entryViewController.swift */,
+				DC561D4926CA91AC0019E985 /* taskViewController.swift */,
+			);
+			path = "prova-3b1-marceloalemeida";
+			sourceTree = "<group>";
+		};
+		DC561D2726CA81580019E985 /* prova-3b1-marceloalemeidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC561D2826CA81580019E985 /* prova_3b1_marceloalemeidaTests.swift */,
+				DC561D2A26CA81580019E985 /* Info.plist */,
+			);
+			path = "prova-3b1-marceloalemeidaTests";
+			sourceTree = "<group>";
+		};
+		DC561D3226CA81580019E985 /* prova-3b1-marceloalemeidaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC561D3326CA81580019E985 /* prova_3b1_marceloalemeidaUITests.swift */,
+				DC561D3526CA81580019E985 /* Info.plist */,
+			);
+			path = "prova-3b1-marceloalemeidaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC561D0D26CA81560019E985 /* prova-3b1-marceloalemeida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC561D3826CA81580019E985 /* Build configuration list for PBXNativeTarget "prova-3b1-marceloalemeida" */;
+			buildPhases = (
+				DC561D0A26CA81560019E985 /* Sources */,
+				DC561D0B26CA81560019E985 /* Frameworks */,
+				DC561D0C26CA81560019E985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prova-3b1-marceloalemeida";
+			productName = "prova-3b1-marceloalemeida";
+			productReference = DC561D0E26CA81560019E985 /* prova-3b1-marceloalemeida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC561D2326CA81580019E985 /* prova-3b1-marceloalemeidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC561D3B26CA81580019E985 /* Build configuration list for PBXNativeTarget "prova-3b1-marceloalemeidaTests" */;
+			buildPhases = (
+				DC561D2026CA81580019E985 /* Sources */,
+				DC561D2126CA81580019E985 /* Frameworks */,
+				DC561D2226CA81580019E985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC561D2626CA81580019E985 /* PBXTargetDependency */,
+			);
+			name = "prova-3b1-marceloalemeidaTests";
+			productName = "prova-3b1-marceloalemeidaTests";
+			productReference = DC561D2426CA81580019E985 /* prova-3b1-marceloalemeidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC561D2E26CA81580019E985 /* prova-3b1-marceloalemeidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC561D3E26CA81580019E985 /* Build configuration list for PBXNativeTarget "prova-3b1-marceloalemeidaUITests" */;
+			buildPhases = (
+				DC561D2B26CA81580019E985 /* Sources */,
+				DC561D2C26CA81580019E985 /* Frameworks */,
+				DC561D2D26CA81580019E985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC561D3126CA81580019E985 /* PBXTargetDependency */,
+			);
+			name = "prova-3b1-marceloalemeidaUITests";
+			productName = "prova-3b1-marceloalemeidaUITests";
+			productReference = DC561D2F26CA81580019E985 /* prova-3b1-marceloalemeidaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC561D0626CA81560019E985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DC561D0D26CA81560019E985 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DC561D2326CA81580019E985 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DC561D0D26CA81560019E985;
+					};
+					DC561D2E26CA81580019E985 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DC561D0D26CA81560019E985;
+					};
+				};
+			};
+			buildConfigurationList = DC561D0926CA81560019E985 /* Build configuration list for PBXProject "prova-3b1-marceloalemeida" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC561D0526CA81560019E985;
+			productRefGroup = DC561D0F26CA81560019E985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC561D0D26CA81560019E985 /* prova-3b1-marceloalemeida */,
+				DC561D2326CA81580019E985 /* prova-3b1-marceloalemeidaTests */,
+				DC561D2E26CA81580019E985 /* prova-3b1-marceloalemeidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC561D0C26CA81560019E985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC561D1E26CA81580019E985 /* LaunchScreen.storyboard in Resources */,
+				DC561D1B26CA81580019E985 /* Assets.xcassets in Resources */,
+				DC561D1926CA81560019E985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC561D2226CA81580019E985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC561D2D26CA81580019E985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC561D0A26CA81560019E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC561D4A26CA91AC0019E985 /* taskViewController.swift in Sources */,
+				DC561D1626CA81560019E985 /* ViewController.swift in Sources */,
+				DC561D4526CA916C0019E985 /* entryViewController.swift in Sources */,
+				DC561D1226CA81560019E985 /* AppDelegate.swift in Sources */,
+				DC561D1426CA81560019E985 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC561D2026CA81580019E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC561D2926CA81580019E985 /* prova_3b1_marceloalemeidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC561D2B26CA81580019E985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC561D3426CA81580019E985 /* prova_3b1_marceloalemeidaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC561D2626CA81580019E985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC561D0D26CA81560019E985 /* prova-3b1-marceloalemeida */;
+			targetProxy = DC561D2526CA81580019E985 /* PBXContainerItemProxy */;
+		};
+		DC561D3126CA81580019E985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC561D0D26CA81560019E985 /* prova-3b1-marceloalemeida */;
+			targetProxy = DC561D3026CA81580019E985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC561D1726CA81560019E985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC561D1826CA81560019E985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC561D1C26CA81580019E985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC561D1D26CA81580019E985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC561D3626CA81580019E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC561D3726CA81580019E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC561D3926CA81580019E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prova-3b1-marceloalemeida/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cotemig.prova-3b1-marceloalemeida";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC561D3A26CA81580019E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prova-3b1-marceloalemeida/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cotemig.prova-3b1-marceloalemeida";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC561D3C26CA81580019E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prova-3b1-marceloalemeidaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cotemig.prova-3b1-marceloalemeidaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prova-3b1-marceloalemeida.app/prova-3b1-marceloalemeida";
+			};
+			name = Debug;
+		};
+		DC561D3D26CA81580019E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prova-3b1-marceloalemeidaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cotemig.prova-3b1-marceloalemeidaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prova-3b1-marceloalemeida.app/prova-3b1-marceloalemeida";
+			};
+			name = Release;
+		};
+		DC561D3F26CA81580019E985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prova-3b1-marceloalemeidaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cotemig.prova-3b1-marceloalemeidaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prova-3b1-marceloalemeida";
+			};
+			name = Debug;
+		};
+		DC561D4026CA81580019E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prova-3b1-marceloalemeidaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cotemig.prova-3b1-marceloalemeidaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prova-3b1-marceloalemeida";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC561D0926CA81560019E985 /* Build configuration list for PBXProject "prova-3b1-marceloalemeida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC561D3626CA81580019E985 /* Debug */,
+				DC561D3726CA81580019E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC561D3826CA81580019E985 /* Build configuration list for PBXNativeTarget "prova-3b1-marceloalemeida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC561D3926CA81580019E985 /* Debug */,
+				DC561D3A26CA81580019E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC561D3B26CA81580019E985 /* Build configuration list for PBXNativeTarget "prova-3b1-marceloalemeidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC561D3C26CA81580019E985 /* Debug */,
+				DC561D3D26CA81580019E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC561D3E26CA81580019E985 /* Build configuration list for PBXNativeTarget "prova-3b1-marceloalemeidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC561D3F26CA81580019E985 /* Debug */,
+				DC561D4026CA81580019E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC561D0626CA81560019E985 /* Project object */;
+}
